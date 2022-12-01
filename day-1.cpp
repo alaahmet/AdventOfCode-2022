@@ -23,8 +23,8 @@ int main() {
 	ans=max(sum,ans);
 	sort(v.begin(),v.end());
 	int n=v.size();
-	cout << (v[n-1]) << endl;
-	cout << (v[n-1]+v[n-2]+v[n-3]) << endl;
+	cout << (v[n-1]) << endl; // part-1
+	cout << (v[n-1]+v[n-2]+v[n-3]) << endl; // part-2
 
 }
 

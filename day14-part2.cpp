@@ -19,6 +19,8 @@ int main() {
 		while(sstream >> dec >> ch >> frac){
 			sstream >> str;
 			v.pb({dec,frac});
+			mx = max(mx,frac);
+
 		}
 		mx = max(mx,frac);
 		v.pb({dec,frac});

@@ -37,7 +37,7 @@ int main() {
 
 		// for part2
 		// using the fact that the distress beacon is unique
-		// it needs to have a manhattan distance=1 to an another beacon
+		// it needs to have a manhattan distance+1 to an another beacon
 		// putting possible candidates into my c vector, and will check them afterwards for all sensors in v vector
 		v.push_back(it);
 		for(int j=0;j<=dist+1;j++){

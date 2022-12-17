@@ -148,6 +148,7 @@ int32_t main() {
 			}
 		}
 		if(m[s]!=0){
+			if(mlow[i]==0)continue;
 			end = i;
 			right = mlow[end];
 			start = m[s];

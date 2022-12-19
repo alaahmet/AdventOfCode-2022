@@ -76,18 +76,15 @@ void go2(int minute,int ore,int clay,int obs,int geo,int orerob,int clayrob,int 
 	}
 }
 int main() {
-	ios_base::sync_with_stdio(0);cin.tie(0);	
-	freopen("sad.txt","r",stdin);
+	freopen("input.txt","r",stdin);
 	// freopen("output.txt","w",stdout);
-	
 	int n = 30;
 	int part1 = 0;
 	int part2 = 1;
+	string s;
 	for(int i=1;i<=n;i++){
-		cin >> oreore;
-		cin >> clayore;
-		cin >> obsore >> obsclay;
-		cin >> geoore >> geoobs;
+		int day;
+		scanf("Blueprint %d: Each ore robot costs %d ore. Each clay robot costs %d ore. Each obsidian robot costs %d ore and %d clay. Each geode robot costs %d ore and %d obsidian.\n",&day,&oreore,&clayore,&obsore,&obsclay,&geoore,&geoobs);
 		maxore = max(oreore,max(clayore,max(obsore,geoore)));
 		maxclay = obsclay;
 		maxobs = geoobs;
@@ -106,4 +103,3 @@ int main() {
 	
 }
 //   Time (mean ± σ):      74.0 ms ±   6.2 ms    [User: 73.3 ms, System: 0.7 ms]
-

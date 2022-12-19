@@ -105,4 +105,5 @@ int main() {
 	cout << "Part-2: " << part2 << endl;
 	
 }
-// Time (mean ± σ):      48.5 ms ±   1.6 ms    [User: 48.0 ms, System: 0.5 ms]
+//   Time (mean ± σ):      74.0 ms ±   6.2 ms    [User: 73.3 ms, System: 0.7 ms]
+
